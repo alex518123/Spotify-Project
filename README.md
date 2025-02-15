@@ -149,14 +149,17 @@ Importante: No MongoDB, as coleções são renomeadas para artists e songs, excl
 ---
 
 🔥 Funcionalidades Detalhadas
+
 🎶 Player de Música:
 Play/Pause utilizando o hook useRef() para manipular o áudio.
 
 Controle de Tempo:
 formatTime() para formatar o tempo em MM:SS.
 timeInSeconds() para converter strings de tempo em segundos.
+
 Barra de Progresso:
 Atualiza dinamicamente com setInterval() e style.setProperty().
+
 📑 Listagem de Artistas e Músicas:
 ItemList.jsx: Responsável por listar os artistas e músicas.
 SingleItem.jsx: Exibe cada item com imagem, título e botão de play.
@@ -165,6 +168,7 @@ SongItem.jsx: Mostra detalhes das músicas, incluindo tempo de duração.
 ---
 
 📝 Considerações Finais
+
 Este projeto foi desenvolvido como parte de um estudo prático de React, Node.js e MongoDB, simulando as funcionalidades essenciais do Spotify.
 
 ---
@@ -178,6 +182,7 @@ Este projeto foi desenvolvido como parte de um estudo prático de React, Node.js
 ---
 
 📜 Licença
+
 Este projeto é open-source e está licenciado sob a MIT License.
 
 ---
