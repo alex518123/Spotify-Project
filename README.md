@@ -96,7 +96,7 @@ GET /songs - Retorna todas as músicas.
 ---
 
 📁 Estrutura do Projeto
-
+```
 projeto-spotify-clone/
 │   README.md
 │
@@ -120,6 +120,7 @@ projeto-spotify-clone/
     │   ├── insertMany.js        # Inserção de dados no MongoDB
     │   └── server.js            # Configuração do servidor Express
     └
+```
 
 ---
 
