@@ -85,6 +85,7 @@ node server.js
 O Front-end estará disponível em: http://localhost:5173
 O Back-end estará disponível em: http://localhost:3001
 
+---
 
 🔗 Endpoints da API
 Base URL: http://localhost:3001
