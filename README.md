@@ -97,11 +97,10 @@ GET /songs - Retorna todas as músicas.
 
 📁 Estrutura do Projeto
 ```
-projeto-spotify-clone/
+Spotify-Project/
 │   README.md
 │
 ├── front-end/
-│   ├── public/
 │   └── src/
 │       ├── api/
 │       ├── assets/
@@ -126,9 +125,11 @@ projeto-spotify-clone/
 
 🌐 Integração com o MongoDB
 
-connect.js: Realiza a conexão com o MongoDB Atlas usando MongoClient.
-insertMany.js: Transfere dados do front-end para o banco de dados.
-server.js: Configura rotas para as coleções artists e songs.
+**connect.js:** Realiza a conexão com o MongoDB Atlas usando MongoClient.
+
+**insertMany.js:** Transfere dados do front-end para o banco de dados.
+
+**server.js:** Configura rotas para as coleções artists e songs.
 
 ---
 
@@ -136,9 +137,11 @@ server.js: Configura rotas para as coleções artists e songs.
 
 Os dados estão localizados em:
 
+```
 front-end/src/assets/database/
 │   ├── artists.js               # Dados dos artistas
 │   └── songs.js                 # Dados das músicas
+```
 
 Importante: No MongoDB, as coleções são renomeadas para artists e songs, excluindo o campo id para evitar conflitos.
 
