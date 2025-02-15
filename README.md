@@ -1,4 +1,4 @@
-# 🎵 Spotify-Projectr
+# 🎵 Spotify-Project
 
 Clone do Spotify desenvolvido com **React**, **Vite**, **Node.js**, **Express** e **MongoDB**. Este projeto simula a experiência de streaming de música, incluindo páginas de artistas, músicas populares, player funcional, navegação e integração com um banco de dados para gerenciamento de músicas e artistas.
 
@@ -51,7 +51,6 @@ Certifique-se de ter instalado na sua máquina:
 ## 🔧 Instalação e Configuração
 
 ### Clone o repositório:
-```bash
 git clone https://github.com/alex518123/Spotify-Project.git
 cd seu-repositorio
 
