@@ -136,7 +136,7 @@ Por exemplo, acessando http://localhost:3001/artists, você deve ver o JSON com 
 
 ---
 
-ℹ️ Notas sobre o Ambiente Local
+**ℹ️ Notas sobre o Ambiente Local**
 
 **localhost:** Refere-se ao seu próprio computador, o que significa que o servidor está rodando localmente apenas para você acessar.
 
