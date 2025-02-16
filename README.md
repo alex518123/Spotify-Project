@@ -52,38 +52,87 @@ Certifique-se de ter instalado na sua máquina:
 
 ### Clone o repositório:
 git clone https://github.com/alex518123/Spotify-Project.git
-cd seu-repositorio
+cd Spotify-Project
 
-Instale as dependências do Front-end:
+Isso vai:
+
+Baixar o projeto para o seu computador.
+
+Entrar na pasta do projeto.
+
+1. Instale as dependências do Front-end:
+
+Esse projeto foi dividido em duas partes: front-end (interface do usuário) e back-end (servidor e banco de dados). Cada um tem suas próprias dependências (bibliotecas e pacotes necessários para funcionar).
 
 cd front-end
 
 npm install
 
-Instale as dependências do Back-end:
+cd front-end: Entra na pasta do front-end.
+
+npm install: Instala todas as dependências listadas no package.json do front-end, como React e outras bibliotecas usadas na interface.
+
+2. Instale as dependências do Back-end:
 
 cd ../back-end
 
 npm install
+
+cd ../back-end: Volta uma pasta (com ..) e entra na pasta do back-end.
+
+npm install: Instala as dependências do back-end, como Express (framework para servidor) e MongoDB (banco de dados).
 
 ---
 
 🚀 Como Rodar o Projeto
 
-Rodando o Front-end:
+**Rodando o Front-end:**
 
 cd front-end
 
 npm run dev
 
-Rodando o Back-end:
+cd front-end: Entra na pasta do front-end novamente.
+
+npm run dev: Inicia o servidor de desenvolvimento do Vite, que é o build tool usado para o React neste projeto.
+
+Front-end disponível em: http://localhost:5173
+
+Quando você rodar o comando acima, o Vite vai iniciar um servidor local na porta 5173.
+
+Você pode acessar a interface do usuário abrindo o navegador e entrando no endereço: http://localhost:5173.
+
+**Rodando o Back-end:**
 
 cd ../back-end
 
 node server.js
 
+cd ../back-end: Volta para a pasta do back-end.
+
+node server.js: Inicia o servidor do back-end usando Node.js.
+
+➡️ Back-end disponível em: http://localhost:3001
+
+Esse servidor do Express vai rodar na porta 3001.
+
+Ele fornece as APIs para o front-end buscar dados, como lista de músicas e artistas.
+
+Por exemplo, acessando http://localhost:3001/artists, você deve ver o JSON com todos os artistas cadastrados no banco de dados MongoDB.
+
+
 O Front-end estará disponível em: http://localhost:5173
 O Back-end estará disponível em: http://localhost:3001
+
+Por que usar localhost e essas portas?
+
+localhost: Refere-se ao seu próprio computador, o que significa que o servidor está rodando localmente apenas para você acessar.
+
+Porta 5173: É a porta padrão do Vite para desenvolvimento.
+
+Porta 3001: Foi definida no server.js para o servidor Express.
+
+Essas portas ajudam a diferenciar o front-end e o back-end, permitindo que eles rodem simultaneamente no mesmo computador sem conflitos.
 
 ---
 
