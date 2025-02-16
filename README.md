@@ -91,7 +91,7 @@ npm install: Instala as dependências do back-end, como Express (framework para 
 
 ---
 
-🚀 Como Rodar o Projeto
+## 🚀 Como Rodar o Projeto
 
 **Rodando o Front-end:**
 ```
