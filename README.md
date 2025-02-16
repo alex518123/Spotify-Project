@@ -205,20 +205,20 @@ Importante: No MongoDB, as coleções são renomeadas para artists e songs, excl
 
 ## 🔥 Funcionalidades Detalhadas
 
-🎶 Player de Música:
-Play/Pause utilizando o hook useRef() para manipular o áudio.
+🎶 **Player de Música:**
+- **Play/Pause** utilizando o hook `useRef()` para manipular o áudio.
 
-Controle de Tempo:
-formatTime() para formatar o tempo em MM:SS.
-timeInSeconds() para converter strings de tempo em segundos.
+⏱️ **Controle de Tempo:**
+- `formatTime()`: Formata o tempo em MM:SS.
+- `timeInSeconds()`: Converte strings de tempo em segundos.
 
-Barra de Progresso:
-Atualiza dinamicamente com setInterval() e style.setProperty().
+🔄 **Barra de Progresso:**
+- Atualiza dinamicamente com `setInterval()` e `style.setProperty()`.
 
-📑 Listagem de Artistas e Músicas:
-ItemList.jsx: Responsável por listar os artistas e músicas.
-SingleItem.jsx: Exibe cada item com imagem, título e botão de play.
-SongItem.jsx: Mostra detalhes das músicas, incluindo tempo de duração.
+📑 **Listagem de Artistas e Músicas:**
+- `ItemList.jsx`: Responsável por listar os artistas e músicas.
+- `SingleItem.jsx`: Exibe cada item com imagem, título e botão de play.
+- `SongItem.jsx`: Mostra detalhes das músicas, incluindo tempo de duração.
 
 ---
 
