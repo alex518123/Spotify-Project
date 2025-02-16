@@ -503,7 +503,6 @@ img {
 
 .footer {
   background-color: hsl(0deg 0% 0% / 25%);
-  color: white;
   text-align: center;
   padding: 20px 0;
   display: flex;
@@ -513,14 +512,14 @@ img {
 }
 
 #logo {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .footer__text {
-  font-size: 14px;
+  font-size: 30px;
 }
 
 .footer__text span {
   display: block;
-  margin: 5px 0;
+  margin: 10px 0;
 }
