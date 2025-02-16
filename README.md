@@ -59,11 +59,11 @@ cd Spotify-Project
 
 Isso vai:
 
-Baixar o projeto para o seu computador.
+- Baixar o projeto para o seu computador.
 
-Entrar na pasta do projeto.
+- Entrar na pasta do projeto.
 
-1. Instale as dependências do Front-end:
+**1. Instale as dependências do Front-end:**
 
 Esse projeto foi dividido em duas partes: front-end (interface do usuário) e back-end (servidor e banco de dados). Cada um tem suas próprias dependências (bibliotecas e pacotes necessários para funcionar).
 
@@ -77,7 +77,7 @@ cd front-end: Entra na pasta do front-end.
 
 npm install: Instala todas as dependências listadas no package.json do front-end, como React e outras bibliotecas usadas na interface.
 
-2. Instale as dependências do Back-end:
+**2. Instale as dependências do Back-end:**
 
 ```
 cd ../back-end
