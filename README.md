@@ -148,7 +148,7 @@ Essas portas ajudam a diferenciar o front-end e o back-end, permitindo que eles 
 
 ---
 
-📁 Estrutura do Projeto
+## 📁 Estrutura do Projeto
 ```
 Spotify-Project/
 │   README.md
@@ -176,7 +176,7 @@ Spotify-Project/
 
 ---
 
-🌐 Integração com o MongoDB
+## 🌐 Integração com o MongoDB
 
 **connect.js:** Realiza a conexão com o MongoDB Atlas usando MongoClient.
 
@@ -186,7 +186,7 @@ Spotify-Project/
 
 ---
 
-📦 Dados Utilizados
+## 📦 Dados Utilizados
 
 Os dados estão localizados em:
 
@@ -200,7 +200,7 @@ Importante: No MongoDB, as coleções são renomeadas para artists e songs, excl
 
 ---
 
-🔥 Funcionalidades Detalhadas
+## 🔥 Funcionalidades Detalhadas
 
 🎶 Player de Música:
 Play/Pause utilizando o hook useRef() para manipular o áudio.
@@ -219,7 +219,7 @@ SongItem.jsx: Mostra detalhes das músicas, incluindo tempo de duração.
 
 ---
 
-📝 Considerações Finais
+## 📝 Considerações Finais
 
 Este projeto foi desenvolvido como parte de um estudo prático de React, Node.js e MongoDB, simulando as funcionalidades essenciais do Spotify.
 
@@ -249,7 +249,7 @@ Sinta-se à vontade para contribuir com o projeto!
 
 ---
 
-📜 Licença
+## 📜 Licença
 
 Este projeto é open-source e está licenciado sob a MIT License.
 
