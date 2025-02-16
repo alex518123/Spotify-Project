@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Artists from "./pages/Artists";
@@ -11,6 +12,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <Header />
+      <Footer />
 
       <Routes>
         <Route path="/" element={<Home />} />

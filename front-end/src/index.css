@@ -500,3 +500,27 @@ img {
     grid-column: 1 / span 2;
   }
 }
+
+.footer {
+  background-color: #181818;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#logo {
+  margin-bottom: 10px;
+}
+
+.footer__text {
+  font-size: 14px;
+}
+
+.footer__text span {
+  display: block;
+  margin: 5px 0;
+}
