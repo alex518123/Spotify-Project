@@ -1,5 +1,10 @@
 # 🎵 Spotify-Project
 
+[![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
+[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+
 Clone do Spotify desenvolvido com **React**, **Vite**, **Node.js**, **Express** e **MongoDB**. Este projeto simula a experiência de streaming de música, incluindo páginas de artistas, músicas populares, player funcional, navegação e integração com um banco de dados para gerenciamento de músicas e artistas.
 
 ### 🔗 Acesse o projeto: [Spotify-Project](https://spotify-project-bpa2.onrender.com/)
@@ -217,6 +222,22 @@ SongItem.jsx: Mostra detalhes das músicas, incluindo tempo de duração.
 📝 Considerações Finais
 
 Este projeto foi desenvolvido como parte de um estudo prático de React, Node.js e MongoDB, simulando as funcionalidades essenciais do Spotify.
+
+---
+
+## 🤝 Contribuição
+
+Sinta-se à vontade para contribuir com o projeto!  
+
+- Faça um fork do repositório  
+
+- Crie uma branch para sua feature (`git checkout -b feature/nova-feature`)  
+
+- Faça commit das mudanças (`git commit -m 'Adiciona nova feature'`)  
+
+- Envie um push para a branch (`git push origin feature/nova-feature`)  
+
+- Abra um Pull Request
 
 ---
 
