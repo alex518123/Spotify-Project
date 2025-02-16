@@ -51,8 +51,11 @@ Certifique-se de ter instalado na sua máquina:
 ## 🔧 Instalação e Configuração
 
 ### Clone o repositório:
+```
 git clone https://github.com/alex518123/Spotify-Project.git
+
 cd Spotify-Project
+```
 
 Isso vai:
 
@@ -64,9 +67,11 @@ Entrar na pasta do projeto.
 
 Esse projeto foi dividido em duas partes: front-end (interface do usuário) e back-end (servidor e banco de dados). Cada um tem suas próprias dependências (bibliotecas e pacotes necessários para funcionar).
 
+```
 cd front-end
 
 npm install
+```
 
 cd front-end: Entra na pasta do front-end.
 
@@ -74,9 +79,11 @@ npm install: Instala todas as dependências listadas no package.json do front-en
 
 2. Instale as dependências do Back-end:
 
+```
 cd ../back-end
 
 npm install
+```
 
 cd ../back-end: Volta uma pasta (com ..) e entra na pasta do back-end.
 
@@ -87,30 +94,32 @@ npm install: Instala as dependências do back-end, como Express (framework para 
 🚀 Como Rodar o Projeto
 
 **Rodando o Front-end:**
-
+```
 cd front-end
 
 npm run dev
+```
 
-cd front-end: Entra na pasta do front-end novamente.
+- cd front-end: Entra na pasta do front-end novamente.
 
-npm run dev: Inicia o servidor de desenvolvimento do Vite, que é o build tool usado para o React neste projeto.
+- npm run dev: Inicia o servidor de desenvolvimento do Vite, que é o build tool usado para o React neste projeto.
 
-Front-end disponível em: http://localhost:5173
+➡️ Front-end disponível em: http://localhost:5173
 
 Quando você rodar o comando acima, o Vite vai iniciar um servidor local na porta 5173.
 
 Você pode acessar a interface do usuário abrindo o navegador e entrando no endereço: http://localhost:5173.
 
 **Rodando o Back-end:**
-
+```
 cd ../back-end
 
 node server.js
+```
 
-cd ../back-end: Volta para a pasta do back-end.
+- cd ../back-end: Volta para a pasta do back-end.
 
-node server.js: Inicia o servidor do back-end usando Node.js.
+- node server.js: Inicia o servidor do back-end usando Node.js.
 
 ➡️ Back-end disponível em: http://localhost:3001
 
@@ -119,10 +128,6 @@ Esse servidor do Express vai rodar na porta 3001.
 Ele fornece as APIs para o front-end buscar dados, como lista de músicas e artistas.
 
 Por exemplo, acessando http://localhost:3001/artists, você deve ver o JSON com todos os artistas cadastrados no banco de dados MongoDB.
-
-
-O Front-end estará disponível em: http://localhost:5173
-O Back-end estará disponível em: http://localhost:3001
 
 Por que usar localhost e essas portas?
 
