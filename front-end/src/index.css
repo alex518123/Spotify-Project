@@ -502,7 +502,7 @@ img {
 }
 
 .footer {
-  background-color: #181818;
+  background-color: hsl(0deg 0% 0% / 25%);
   color: white;
   text-align: center;
   padding: 20px 0;
