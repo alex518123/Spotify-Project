@@ -100,7 +100,7 @@ cd front-end
 npm run dev
 ```
 
-- cd front-end: Entra na pasta do front-end novamente.
+- cd front-end: Navega até a pasta do front-end.
 
 - npm run dev: Inicia o servidor de desenvolvimento do Vite, que é o build tool usado para o React neste projeto.
 
