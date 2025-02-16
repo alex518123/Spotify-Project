@@ -129,13 +129,15 @@ Ele fornece as APIs para o front-end buscar dados, como lista de músicas e arti
 
 Por exemplo, acessando http://localhost:3001/artists, você deve ver o JSON com todos os artistas cadastrados no banco de dados MongoDB.
 
-Por que usar localhost e essas portas?
+---
 
-localhost: Refere-se ao seu próprio computador, o que significa que o servidor está rodando localmente apenas para você acessar.
+ℹ️ Notas sobre o Ambiente Local
 
-Porta 5173: É a porta padrão do Vite para desenvolvimento.
+**localhost:** Refere-se ao seu próprio computador, o que significa que o servidor está rodando localmente apenas para você acessar.
 
-Porta 3001: Foi definida no server.js para o servidor Express.
+**Porta 5173:** É a porta padrão do Vite para desenvolvimento.
+
+**Porta 3001:** Foi definida no server.js para o servidor Express.
 
 Essas portas ajudam a diferenciar o front-end e o back-end, permitindo que eles rodem simultaneamente no mesmo computador sem conflitos.
 
