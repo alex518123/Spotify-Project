@@ -2,7 +2,7 @@
 
 Clone do Spotify desenvolvido com **React**, **Vite**, **Node.js**, **Express** e **MongoDB**. Este projeto simula a experiência de streaming de música, incluindo páginas de artistas, músicas populares, player funcional, navegação e integração com um banco de dados para gerenciamento de músicas e artistas.
 
-### 🔗 Acesse o projeto: [Spotify Clone](https://spotify-project-bpa2.onrender.com/)
+### 🔗 Acesse o projeto: [Spotify-Project](https://spotify-project-bpa2.onrender.com/)
 
 ---
 
@@ -84,15 +84,6 @@ node server.js
 
 O Front-end estará disponível em: http://localhost:5173
 O Back-end estará disponível em: http://localhost:3001
-
----
-
-🔗 Endpoints da API
-Base URL: http://localhost:3001
-
-Endpoints Disponíveis:
-GET /artists - Retorna todos os artistas.
-GET /songs - Retorna todas as músicas.
 
 ---
 
