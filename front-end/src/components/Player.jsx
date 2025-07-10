@@ -81,6 +81,12 @@ const Player = ({
     navigate(`/song/${randomId2FromArtist}`);
   };
 
+  console.log({
+    currentUrlId: window.location.pathname.split("/").pop(),
+    randomIdFromArtist,
+    randomId2FromArtist
+  });
+  
   return (
     <div className="player">
       <div className="player__controllers">
