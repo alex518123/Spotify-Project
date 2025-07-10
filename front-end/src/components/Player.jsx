@@ -80,12 +80,6 @@ const Player = ({
   const handleNext = () => {
     navigate(`/song/${randomId2FromArtist}`);
   };
-
-  console.log({
-    currentUrlId: window.location.pathname.split("/").pop(),
-    randomIdFromArtist,
-    randomId2FromArtist
-  });
   
   return (
     <div className="player">
@@ -119,7 +113,7 @@ const Player = ({
         <p>{duration}</p>
       </div>
 
-      <audio ref={audioPlayer} src={audio}></audio>
+      <audio key={audio} ref={audioPlayer} src={audio}></audio>
     </div>
   );
 };
