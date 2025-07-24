@@ -1,102 +1,102 @@
-// export const songsArray = [
-//   {
-//     image: "https://i.scdn.co/image/ab67616d00001e022774b00531d558bc19e12a24",
-//     name: "Última Saudade - Ao Vivo",
-//     duration: "02:30",
-//     artist: "Henrique & Juliano",
-//     audio:
-//       "https://jornada-fullstack.s3.us-east-2.amazonaws.com/ultima-saudade.mp3",
-//     id: 1,
-//   },
-//   {
-//     image: "https://i.scdn.co/image/ab67616d00001e02af41105c5cd91b28f2cf219d",
-//     name: "Xonei",
-//     duration: "02:34",
-//     artist: "Henrique & Juliano",
-//     audio:
-//       "https://jornada-fullstack.s3.us-east-2.amazonaws.com/ultima-saudade.mp3",
-//     id: 2,
-//   },
-//   {
-//     image: "https://i.scdn.co/image/ab67616d00001e02656f8291d741ad247ef330fe",
-//     name: "Paredões",
-//     duration: "02:55",
-//     artist: "Henrique & Juliano",
-//     audio:
-//       "https://jornada-fullstack.s3.us-east-2.amazonaws.com/ultima-saudade.mp3",
-//     id: 3,
-//   },
-//   {
-//     image: "https://i.scdn.co/image/ab67616d00001e022774b00531d558bc19e12a24",
-//     name: "Amigo Da Minha Saudade - Ao Vivo",
-//     duration: "02:30",
-//     artist: "Henrique & Juliano",
-//     audio:
-//       "https://jornada-fullstack.s3.us-east-2.amazonaws.com/ultima-saudade.mp3",
-//     id: 4,
-//   },
-//   {
-//     image: "https://i.scdn.co/image/ab67616d00001e022774b00531d558bc19e12a24",
-//     name: "Seja Ex - Ao Vivo",
-//     duration: "03:12",
-//     artist: "Henrique & Juliano",
-//     audio:
-//       "https://jornada-fullstack.s3.us-east-2.amazonaws.com/ultima-saudade.mp3",
-//     id: 5,
-//   },
-//   {
-//     image: "https://i.scdn.co/image/ab67616d00001e0299c540c0f78793fcea84a920",
-//     name: "De Trás Pra Frente - Ao Vivo",
-//     duration: "02:43",
-//     artist: "Henrique & Juliano",
-//     audio:
-//       "https://jornada-fullstack.s3.us-east-2.amazonaws.com/ultima-saudade.mp3",
-//     id: 6,
-//   },
-//   {
-//     image: "https://i.scdn.co/image/ab67616d00001e0299c540c0f78793fcea84a920",
-//     name: "Aquela Pessoa - Ao Vivo",
-//     duration: "02:46",
-//     artist: "Henrique & Juliano",
-//     audio:
-//       "https://jornada-fullstack.s3.us-east-2.amazonaws.com/ultima-saudade.mp3",
-//     id: 7,
-//   },
-//   {
-//     image: "https://i.scdn.co/image/ab67616d00001e0299c540c0f78793fcea84a920",
-//     name: "Meu Amor - Ao Vivo",
-//     duration: "02:54",
-//     artist: "Henrique & Juliano",
-//     audio:
-//       "https://jornada-fullstack.s3.us-east-2.amazonaws.com/ultima-saudade.mp3",
-//     id: 8,
-//   },
-//   {
-//     image: "https://i.scdn.co/image/ab67616d00001e025bb6668a856035550a66fc31",
-//     name: "Como É Que A Gente Fica - Ao Vivo",
-//     duration: "02:43",
-//     artist: "Henrique & Juliano",
-//     audio:
-//       "https://jornada-fullstack.s3.us-east-2.amazonaws.com/ultima-saudade.mp3",
-//     id: 9,
-//   },
-//   {
-//     image: "https://i.scdn.co/image/ab67616d00001e022774b00531d558bc19e12a24",
-//     name: "Romântico - Ao Vivo",
-//     duration: "03:03",
-//     artist: "Henrique & Juliano",
-//     audio:
-//       "https://jornada-fullstack.s3.us-east-2.amazonaws.com/ultima-saudade.mp3",
-//     id: 10,
-//   },
-//   {
-//     image: "https://i.scdn.co/image/ab67616d00001e02d8bfb4567b1b5e5bc4da915b",
-//     name: "Oh Garota Eu Quero Você Só Pra Mim",
-//     duration: "02:46",
-//     artist: "MC Tuto",
-//     audio: "https://jornada-fullstack.s3.us-east-2.amazonaws.com/barbie.mp3",
-//     id: 11,
-//   },
+//  export const songsArray = [
+//    {
+//      image: "https://i.scdn.co/image/ab67616d00001e022774b00531d558bc19e12a24",
+//      name: "Última Saudade - Ao Vivo",
+//      duration: "02:30",
+//      artist: "Henrique & Juliano",
+//      audio:
+//        "https://jornada-fullstack.s3.us-east-2.amazonaws.com/ultima-saudade.mp3",
+//      id: 1,
+//    },
+//    {
+//      image: "https://i.scdn.co/image/ab67616d00001e02af41105c5cd91b28f2cf219d",
+//      name: "Xonei",
+//      duration: "02:34",
+//      artist: "Henrique & Juliano",
+//      audio:
+//        "https://jornada-fullstack.s3.us-east-2.amazonaws.com/ultima-saudade.mp3",
+//      id: 2,
+//    },
+//    {
+//      image: "https://i.scdn.co/image/ab67616d00001e02656f8291d741ad247ef330fe",
+//      name: "Paredões",
+//      duration: "02:55",
+//      artist: "Henrique & Juliano",
+//      audio:
+//        "https://jornada-fullstack.s3.us-east-2.amazonaws.com/ultima-saudade.mp3",
+//      id: 3,
+//    },
+//    {
+//      image: "https://i.scdn.co/image/ab67616d00001e022774b00531d558bc19e12a24",
+//      name: "Amigo Da Minha Saudade - Ao Vivo",
+//      duration: "02:30",
+//      artist: "Henrique & Juliano",
+//      audio:
+//        "https://jornada-fullstack.s3.us-east-2.amazonaws.com/ultima-saudade.mp3",
+//      id: 4,
+//    },
+//    {
+//      image: "https://i.scdn.co/image/ab67616d00001e022774b00531d558bc19e12a24",
+//      name: "Seja Ex - Ao Vivo",
+//      duration: "03:12",
+//      artist: "Henrique & Juliano",
+//      audio:
+//        "https://jornada-fullstack.s3.us-east-2.amazonaws.com/ultima-saudade.mp3",
+//      id: 5,
+//    },
+//    {
+//      image: "https://i.scdn.co/image/ab67616d00001e0299c540c0f78793fcea84a920",
+//      name: "De Trás Pra Frente - Ao Vivo",
+//      duration: "02:43",
+//      artist: "Henrique & Juliano",
+//      audio:
+//        "https://jornada-fullstack.s3.us-east-2.amazonaws.com/ultima-saudade.mp3",
+//      id: 6,
+//    },
+//    {
+//      image: "https://i.scdn.co/image/ab67616d00001e0299c540c0f78793fcea84a920",
+//      name: "Aquela Pessoa - Ao Vivo",
+//      duration: "02:46",
+//      artist: "Henrique & Juliano",
+//      audio:
+//        "https://jornada-fullstack.s3.us-east-2.amazonaws.com/ultima-saudade.mp3",
+//      id: 7,
+//    },
+//    {
+//      image: "https://i.scdn.co/image/ab67616d00001e0299c540c0f78793fcea84a920",
+//      name: "Meu Amor - Ao Vivo",
+//      duration: "02:54",
+//      artist: "Henrique & Juliano",
+//      audio:
+//        "https://jornada-fullstack.s3.us-east-2.amazonaws.com/ultima-saudade.mp3",
+//      id: 8,
+//    },
+//    {
+//      image: "https://i.scdn.co/image/ab67616d00001e025bb6668a856035550a66fc31",
+//      name: "Como É Que A Gente Fica - Ao Vivo",
+//      duration: "02:43",
+//      artist: "Henrique & Juliano",
+//      audio:
+//        "https://jornada-fullstack.s3.us-east-2.amazonaws.com/ultima-saudade.mp3",
+//      id: 9,
+//    },
+//    {
+//      image: "https://i.scdn.co/image/ab67616d00001e022774b00531d558bc19e12a24",
+//      name: "Romântico - Ao Vivo",
+//      duration: "03:03",
+//      artist: "Henrique & Juliano",
+//      audio:
+//        "https://jornada-fullstack.s3.us-east-2.amazonaws.com/ultima-saudade.mp3",
+//      id: 10,
+//    },
+//    {
+//      image: "https://i.scdn.co/image/ab67616d00001e02d8bfb4567b1b5e5bc4da915b",
+//      name: "Oh Garota Eu Quero Você Só Pra Mim",
+//      duration: "02:46",
+//      artist: "MC Tuto",
+//      audio: "https://jornada-fullstack.s3.us-east-2.amazonaws.com/barbie.mp3",
+//      id: 11,
+//    },
 //   {
 //     image: "https://i.scdn.co/image/ab67616d00001e02f412f43fad4c3ffab163287c",
 //     name: "Barbie",
